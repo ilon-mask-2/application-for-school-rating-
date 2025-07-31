@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9f55b14-39ca-40d6-9650-d24ad99ff01d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/translation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Application for school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Application for school.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/translation/login_page_translation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/translation/translation_func.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Server/Data_Base/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/Data_Base/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +50,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\89166\Desktop\programs\Application for school\client\src" />
       <recent name="C:\Users\89166\Desktop\programs\Application for school\client" />
       <recent name="C:\Users\89166\Desktop\programs\Application for school\client\src\pages" />
-      <recent name="C:\Users\89166\Desktop\programs\Application for school\client\src" />
       <recent name="C:\Users\89166\Desktop\programs\Application for school\server" />
       <recent name="C:\Users\89166\Desktop\programs\Application for school" />
     </key>
