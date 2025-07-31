@@ -1,15 +1,17 @@
-export async function loginUser(login, password) {
-    try {
-        const response = await fetch("/api/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ login, password })
-        });
+import axios from "axios";
 
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error("Ошибка при авторизации:", error);
-        return { success: false, error: "Ошибка сети" };
-    }
+export async function loginUser(login, password) {
+  try {
+    const res = await axios.post("/auth/login", { login, password });
+    return {
+      success: true,
+      token: res.data.token,
+      role: res.data.role
+    };
+  } catch (err) {
+    return {
+      success: false,
+      error: err.response?.data?.error || "Ошибка входа"
+    };
+  }
 }
